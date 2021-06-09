@@ -23,6 +23,10 @@ public class CardTrick {
         Random rand = new Random();
         Scanner sc = new Scanner(System.in);
         
+        Card luckyCard = new Card();
+        luckyCard.setValue(13);
+        luckyCard.setSuit(Card.SUITS[3]);
+        
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
